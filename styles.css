@@ -18,7 +18,7 @@ body {
     color: var(--text-color);
     background-color: var(--background-color);
     padding: var(--spacing-unit);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 nav {
