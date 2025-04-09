@@ -214,4 +214,36 @@ footer {
     .services, .ai-features {
         grid-template-columns: 1fr;
     }
+}
+
+.divider {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: var(--spacing-unit) 0;
+    position: relative;
+}
+
+.divider::before, .divider::after {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: var(--text-color);
+    position: absolute;
+    top: 50%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.form-embed {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-unit);
 } 
